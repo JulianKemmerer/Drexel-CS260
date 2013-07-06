@@ -1,0 +1,47 @@
+Python 2.7.3
+gcc version 4.6.3
+
+MEMBERS:
+Brian E. Courtney
+Julian V. Kemmerer
+Brian C. Tighe
+
+CONTENTS:
+Problem_1.py - Problem 1 Solution
+Problem_2.py - Problem 2 Solution
+tries.py - Problem 5 Solution
+Problem6.cpp - Problem 6 Solution
+dijkstra2.py - Problem 7 Solution
+Problem8.cpp - Problem 8 Solution
+Problem_9.py - Problem 9 Solution
+Problem10Dyadic.cpp - Problem 10 Solution, dyadic window sizes
+Problem10Any.cpp - Problem 10 Solution, arbitrary window sizes
+list_array.py, AliceInWonderland.txt - Files used from problem 5 and 7
+makefile - Makefile for this assignment
+
+COMPLETE:
+All problems are complete.
+
+COMPILATION & EXECUTION:
+.py files can be run by: $ python <file name>.py
+.cpp files can be compiled using: $ g++ <file name>.cpp -o <file name>
+then run using: $ ./<file name>
+See make file for additional information. 
+Run $ make problem<prob #> to build and run the problem.
+Just make compiles and runs all problems.
+
+TEST CASES:
+All test case information is either included in the source or part of the program output.
+See program output descriptions below.
+
+PROGRAM OUTPUT:
+Problem 1: Codes for all the characters in the tree.
+Problem 2: Best numerical constants for deletion and insertion.
+Problem 5: Size of the generated trie from AliceInWonderland.txt
+Problem 6: Outputs the final Dijkstra's algorithm table.
+Problem 7: Outputs each step of the algorithm as it eliminates the smallest value, and updates the set of nodes incorporated into the algorithm.
+Problem 8: Outputs the final Floyd's algorithm table.
+Problem 9: Depth-first search algorithm for fig. 6.38 p.226
+Problem 10: Outputs the example data set, the computed FFT, and the MATLAB computed FFT for the same data set.
+
+
